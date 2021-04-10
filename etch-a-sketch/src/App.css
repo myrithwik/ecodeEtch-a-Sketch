@@ -1,0 +1,12 @@
+#grid-container {
+  display: inline-grid;
+  border: solid #ff5e5b;
+  border-width: 6px 100px 0;
+  grid-gap: 1px;
+  background-color: #aaaaaa;
+  /* cursor: crosshair; */
+}
+
+#grid-container > div {
+  background-color: #d8d8d8;
+}
