@@ -8,10 +8,13 @@
   grid-gap: 0em;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
+  /* height: 960px;
+  width: 960px; */
+  min-height: 960px;
+  max-width: 960px;
 }
 
 .grid-item {
-  padding: 1em;
+  /* padding: 1em; */
   border: 1px solid #ddd;
-  text-align: center;
 }
